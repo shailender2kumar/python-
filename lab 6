@@ -1,0 +1,16 @@
+class notunique :
+    def duplicate(self,list1):
+        uniquelist = []
+        duplicatelist =[]
+        
+        for i in list1:
+            if i not in uniquelist:
+                uniquelist.append(i)
+            elif i not in duplicatelist:
+                duplicatelist.append(i)
+                
+        return  duplicatelist
+    
+s= notunique()
+list1 = [1,1,2,3,3,4,5,5,6,7,7]
+print(s.duplicate(list1))
