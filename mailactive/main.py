@@ -22,7 +22,7 @@ speak("mail is active")
 
 server=smtplib.SMTP("smtp.gmail.com",587)
 server.starttls()
-server.login("sainishailender0@gmail.com","vihw dgsi nsix exty")
+server.login("sainishailender0@gmail.com","your app password")
 email=EmailMessage()
 speak("enter sender details")
 while (i!=1):
